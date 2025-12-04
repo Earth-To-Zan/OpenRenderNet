@@ -2,7 +2,7 @@
 *An open source blender render farm system.*
 *(Works on Linux, Windows, locally, and on external networks)*
 
-This project allows anyone to create a blender render farm for free. It allows you to network machines and manage jobs/GPU Compute Power to speeed up rendering in Blender.
+This project allows anyone to create a blender render farm for free. It allows you to network machines and manage jobs/GPU Compute Power to speed up rendering in Blender.
 
 # Key notes & Installation:
 
