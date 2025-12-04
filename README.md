@@ -8,7 +8,10 @@
 **Install requirements (must have `pip`/`python` installed):**
 `pip install -r requirements.txt`
 
-# Key notes:
+# Key notes & Installation:
+
+**(Run a terminal in the same directory as the downloaded scripts)**
+
 First off, the `coordinator_(Barebones-Example).py` will open up a server backend/webui of which you can login, upload blender jobs, manage workers, download/manage render jobs.
 *(Use:* `python coordinator_(Barebones-Example).py` *in your terminal to run the coordinator script)*
 
@@ -32,8 +35,20 @@ And your coordinator's API Token.
 
 **(THIS HAS BEEN TESTED ONLY ON BLENDER `5.0.0`, IT IS NOT GARUANTEED THAT IT WILL WORK ON OLDER NOR FAR FUTURE BLENDER VERSIONS AS BLENDER CLI DOCUMENTATION CHANGES`)**
 
+# Compiling to `.exe`:
+
+**Install `pyinstaller` (must have `pip`/`python` installed):**
+`pip install pyinstaller`
+
+**(Run a terminal in the same directory as:** `worker.py`**)**
+
+**Then, compile by running the following terminal command:**
+`pyinstaller --onefile "worker.py"`
+
 If you have any questions, feel free to add me on discord: `entromni`
 This project was vibe coded in a day, I hated that there wasn't any easy to use blender render farm projects that anyone could use, especially for the latest blender versions.
 I plan on eventually (maybe) hosting my own free volunteer based render farm where people can sign up to offer their GPU compute for others to use, so stay tuned for that; as next I'll need to finish and get that project working, and I should probably make a video demonstrating this current repository.
+
+**DISCLAIMER: VIBE CODE MEANS IT WAS CREATED WITH AI, I HAD USED CHAT.DEEPSEEK.COM TO PROGRAM MOST OF THIS**
 
 Take care, and you are welcome :3
