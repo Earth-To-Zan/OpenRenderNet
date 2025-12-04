@@ -2,13 +2,15 @@
 *An open source blender render farm system.*
 *(Works on Linux, Windows, locally, and on external networks)*
 
+This project allows anyone to create a blender render farm for free. It allows you to network machines and manage jobs/GPU Compute Power to speeed up rendering in Blender.
+
+# Key notes & Installation:
+
 **First clone the repository to your dedicated folder:**
 `git clone https://github.com/Earth-To-Zan/OpenRenderNet.git`
 
 **Install requirements (must have `pip`/`python` installed):**
 `pip install -r requirements.txt`
-
-# Key notes & Installation:
 
 **(Run a terminal in the same directory as the downloaded scripts)**
 
