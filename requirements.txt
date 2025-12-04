@@ -1,0 +1,13 @@
+flask
+werkzeug
+pyjwt
+cryptography
+pillow
+gpustat
+psutil
+jwt
+legacy-cgi
+gputil
+hashlib
+mimetypes
+functools
