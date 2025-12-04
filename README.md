@@ -47,6 +47,10 @@ And your coordinator's API Token.
 **Then, compile by running the following terminal command:**
 `pyinstaller --onefile "worker.py"`
 
+# Compiling as a linux executable (coming soon).
+
+# After-thoughts:
+
 If you have any questions, feel free to add me on discord: `entromni`
 
 This project was vibe coded in a day, I hated that there wasn't any easy to use blender render farm projects that anyone could use, especially for the latest blender versions.
