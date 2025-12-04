@@ -48,6 +48,7 @@ And your coordinator's API Token.
 `pyinstaller --onefile "worker.py"`
 
 If you have any questions, feel free to add me on discord: `entromni`
+
 This project was vibe coded in a day, I hated that there wasn't any easy to use blender render farm projects that anyone could use, especially for the latest blender versions.
 I plan on eventually (maybe) hosting my own free volunteer based render farm where people can sign up to offer their GPU compute for others to use, so stay tuned for that; as next I'll need to finish and get that project working, and I should probably make a video demonstrating this current repository.
 
